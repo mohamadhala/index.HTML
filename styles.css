@@ -1,0 +1,173 @@
+
+  *
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body
+  {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .navbar
+  {
+   display: flex;
+   align-items: center;
+   padding: 20px;
+  }
+  nav
+  {
+   flex: 1;
+   text-align: right;
+  }
+  nav ul 
+  {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  nav ul li 
+  {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  a
+  {
+    text-decoration: none;
+    color :#253137;
+
+  }
+  p
+  {
+    color:#253137 ;
+  }
+  
+.navbar
+{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* making the backgroungWeb Pic fit to page size  */
+.row
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2
+{
+  flex-basis: 50%;
+  min-width: 300px;
+
+}
+.col-2 img
+{
+  max-width: 100%;
+  padding: 50px 0 ;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn
+{
+  display: inline-block;
+  background: #448AFF;
+  color: #fff;
+  padding:8px 30px ; 
+  margin:30px 0 ;
+  border-radius: 30px;
+  transition: single-transition 0.5s;
+}
+.btn:hover
+{
+  background:#253137 ;
+}
+.header
+{
+  background: radial-gradient( #fff,#448AFF);
+}
+.header .row
+{
+  margin-top:70px ;
+}
+.catagories
+{
+margin: 70px 0;
+}
+.col-3
+{
+  flex-basis: 30%;
+  min-width:300px;
+  margin: 15px;
+}
+.col-3 img
+{
+  width:100%;
+}
+.small-container
+{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.col-4
+{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.4s;
+}
+.col-4 img
+{
+  width: 100%;
+}
+
+.title
+{
+  text-align: center;
+  margin: auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #253137;
+
+}
+.title::after
+{
+  content: '';
+  background: #448AFF;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  transform: translateX(-50);
+}
+h4
+{
+  color:#253137 ;
+  font-weight: normal;
+}
+.col-4
+{
+  font-size: 14px;
+}
+.rating .fa
+{
+    color: #448AFF;
+}
+/* moving a little bit higher  */
+.col-4:hover
+{
+  transform: translateY(-5px);
+}
