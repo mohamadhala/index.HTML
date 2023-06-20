@@ -13,10 +13,13 @@
   }
   .navbar
   {
+
    display: flex;
    align-items: center;
    padding: 20px;
+   
   }
+  /* making the nav to the right side , flex 1 to fill the place  */
   nav
   {
    flex: 1;
@@ -26,6 +29,7 @@
   {
     list-style-type: none;
     display: inline-block;
+
   }
   
   nav ul li 
@@ -50,6 +54,7 @@
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+
 }
 /* making the backgroungWeb Pic fit to page size  */
 .row
@@ -58,6 +63,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 .col-2
 {
@@ -70,7 +76,8 @@
   max-width: 100%;
   padding: 50px 0 ;
 }
-.col-2 h1{
+.col-2 h1
+{
   font-size: 50px;
   line-height: 60px;
   margin: 25px 0;
@@ -96,6 +103,8 @@
 .header .row
 {
   margin-top:70px ;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 .catagories
 {
