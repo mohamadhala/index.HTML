@@ -190,3 +190,63 @@ h4
 {
   padding: 20px;
 }
+.testimonial
+{
+  padding-top: 100px;
+}
+.testimonial .col-3
+{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px rgba(0, 0,0,0,0.1);
+  cursor: pointer;
+  transform: 0.5s;
+}
+.testimonial .col-3 img{
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+
+}
+.testimonial .col-3:hover
+{
+  transform: translateY(-10px);
+}
+.fa.fa-quote-left
+{
+  font-size: 34px;
+  color:#448AFF ;
+}
+.col-3 p
+{
+  font-size: 12px;
+  margin: 12px 0 ;
+  color: #253137;
+}
+.testimonial .col-3 h3
+{
+  font-weight: 600;
+  color: #253137;
+  font-size: 16px;
+}
+.brands
+{
+  margin: 100px auto;
+}
+.col-5
+{
+  width: 110px;
+
+}
+.col-5 img
+{
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.brands .col-5
+{
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size:36px;
+} 
